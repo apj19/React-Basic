@@ -1,8 +1,9 @@
 
-import { useState } from 'react';
+// import { useState } from 'react';
 import './App.css';
+import Effect from './Effect'
 
-import Score from './Components/Score.js'
+// import Score from './Components/Score.js'
 
 // function Counter(){
    
@@ -26,8 +27,10 @@ import Score from './Components/Score.js'
 function App() {
   return (
     <div className="App">
+
+      <Effect/>
       
-      <Score/>
+      {/* <Score/> */}
     </div>
   );
 }
